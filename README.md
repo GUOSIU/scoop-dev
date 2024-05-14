@@ -35,11 +35,8 @@ scoop config proxy 127.0.0.1:7890
 # 取消 Scoop 代理
 scoop config rm proxy
 
-# 更换scoop的repo地址
-scoop config SCOOP_REPO "https://gitee.com/glsnames/scoop-installer"
-
 # 初始repo地址
-https://github.com/ScoopInstaller/Scoop
+scoop config SCOOP_REPO "https://github.com/ScoopInstaller/Scoop"
 
 # 查看 Scoop 配置
 scoop config
